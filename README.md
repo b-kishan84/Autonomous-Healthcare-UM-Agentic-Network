@@ -159,12 +159,4 @@ Two mock patients are seeded to demonstrate the two main decision paths:
 
 ---
 
-## Key Design Decisions
-
-| Decision | Rationale |
-|----------|-----------|
-| `src/` layout with `pyproject.toml` | Industry-standard packaging — `um_agent` is an installable module, no `sys.path` hacks |
-| `config.py` as single source of truth | All paths and model names in one place — change once, updates everywhere |
-| Cosine similarity in ChromaDB | Best metric for semantic text matching over Euclidean distance |
-| `INSERT OR IGNORE` + `UNIQUE` constraints | Database seeding is fully idempotent — safe to re-run |
-| LangGraph conditional edges | Deterministic routing — the graph cannot enter an undefined state |
+g — the graph cannot enter an undefined state |
