@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Auto-generated databases (never commit local data)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
