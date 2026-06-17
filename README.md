@@ -159,4 +159,3 @@ Two mock patients are seeded to demonstrate the two main decision paths:
 
 ---
 
-g — the graph cannot enter an undefined state |
