@@ -68,7 +68,7 @@ Unstructured Clinical Note (Authorization Request)
 ## Project Structure
 
 ```
-ZeOmega/
+Project_folder/
 ├── .env.example              # Copy to .env — add your Google API key
 ├── .gitignore
 ├── README.md
